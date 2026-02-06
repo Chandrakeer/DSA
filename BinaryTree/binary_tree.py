@@ -4,6 +4,8 @@ A binary tree is a tree data structure where each node has at most two children,
 referred to as the left child and the right child.
 """
 
+from collections import deque
+
 class TreeNode:
     """
     Node class for Binary Tree
@@ -28,10 +30,10 @@ class BinaryTree:
             self.root = TreeNode(value)
             return
         
-        # Use queue for level-order insertion
-        queue = [self.root]
+        # Use deque for level-order insertion
+        queue = deque([self.root])
         while queue:
-            node = queue.pop(0)
+            node = queue.popleft()
             
             if node.left is None:
                 node.left = TreeNode(value)
@@ -128,10 +130,10 @@ class BinaryTree:
             return []
         
         result = []
-        queue = [self.root]
+        queue = deque([self.root])
         
         while queue:
-            node = queue.pop(0)
+            node = queue.popleft()
             result.append(node.value)
             
             if node.left:
