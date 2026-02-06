@@ -1,0 +1,61 @@
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Compiled files
+*.class
+*.pyc
+*.pyo
+__pycache__/
+*.o
+*.exe
+*.out
+a.out
+
+# Language specific
+# Python
+*.py[cod]
+venv/
+env/
+ENV/
+.pytest_cache/
+
+# Java
+*.jar
+*.war
+target/
+build/
+
+# C/C++
+*.so
+*.dll
+*.dylib
+
+# JavaScript/Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Testing
+.coverage
+htmlcov/
+.tox/
+
+# Temporary files
+*.tmp
+*.log
+*.bak
+.cache/
+
+# OS files
+Thumbs.db
+Desktop.ini
+
+# Personal notes (keep only template files)
+**/scratch.*
+**/temp.*
+**/test_local.*
