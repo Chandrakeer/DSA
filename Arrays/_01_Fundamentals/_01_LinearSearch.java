@@ -11,8 +11,7 @@ public class _01_LinearSearch {
      * Complexity
      *   Time: O(N)
      *   Space: O(1)
-     */
-    
+     */ 
     public static int findTargetIndex(int[] nums, int target) {
 
         if (nums.length == 0) {
