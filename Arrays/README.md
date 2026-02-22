@@ -1,6 +1,7 @@
 # Array Notes
 
-## Structure to solve questions in interview 
+## Structure to solve questions in Interview 
+
 Step 1: Restate the problem in your own words to confirm understanding.
 
 Step 2: Describe the approach step-by-step: initializations, loop or condition, and what you return.
